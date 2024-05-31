@@ -45,6 +45,10 @@ main {
   justify-content: space-between;
 }
 
+.weather-app-left-panel {
+  padding-left: 30px;
+}
+
 .weather-app-city {
   margin: 0;
   font-size: 38px;
@@ -64,10 +68,12 @@ main {
 
 .weather-app-temperature-container {
   display: flex;
+  padding-right: 30px;
 }
 
 .weather-app-icon {
-  font-size: 44px;
+  width: 80px;
+  height: 80px;
   margin-top: -10px;
 }
 
