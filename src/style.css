@@ -112,6 +112,10 @@ main {
   color: #757a79;
 }
 
+.weather-forecast-icon {
+  width: 60px;
+}
+
 .weather-forecast-temperatures {
   font-size: 15px;
   opacity: 0.8;
