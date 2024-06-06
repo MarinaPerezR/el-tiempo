@@ -1,8 +1,9 @@
 body {
-  background: radial-gradient(
-    circle at 18.7% 37.8%,
-    rgb(250, 250, 250) 0%,
-    rgb(225, 234, 238) 90%
+  background: linear-gradient(
+    103deg,
+    rgb(235, 225, 188) 7.2%,
+    rgb(232, 188, 234) 57.5%,
+    rgb(203, 209, 244) 90.7%
   );
   font-family: "Ubuntu", sans-serif;
 }
@@ -27,13 +28,19 @@ header {
 }
 
 .search-form-button {
-  background: #7c0855;
+  background: #970a5c;
   border: outset;
   border-radius: 6px;
   padding: 15px 20px;
   font-size: 17px;
   color: white;
   margin-left: 7px;
+}
+
+.search-form-button:hover {
+  background: #4b062e;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
 }
 
 main {
@@ -144,7 +151,7 @@ a {
 }
 
 .weather-app {
-  background: white;
+  background: #f8e1f2;
   max-width: 600px;
   margin: 60px auto;
   padding: 30px;
